@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.product_table button {
+  padding: 3px 10px;
+  border: 1px;
+  border-radius: 50px;
+  background: #000;
+  color: #fff;
+}
+.product_table {
+  width: 350px;
+}
+
+.cart_inc, .cart_dec, .cart_qty{
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 6px;
+}
+
+.cart_inc, .cart_dec{
+  cursor: pointer;
+}
+
+.cart_qty{
+  border-left: none;
+  border-right: none;
+}
